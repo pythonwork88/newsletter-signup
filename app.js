@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 
 mailchimp.setConfig({
-  apiKey: "2b7e6b463e3e4862f415ca9cfe7abc26-us12",
+  apiKey: "api-key",
   server: "us12",
 });
 
@@ -86,6 +86,4 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 
-// api key = 2b7e6b463e3e4862f415ca9cfe7abc26-us12
-// list id
-// 27cd737e83
+
